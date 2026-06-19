@@ -1,8 +1,8 @@
 kind = "web"
 previewPath = "/"
-title = "Mina Massoud Portfolio"
+title = "Harpreet Singh Portfolio"
 version = "1.0.0"
-id = "artifacts/mina-portfolio"
+id = "artifacts/harpreet-singh"
 router = "path"
 
 [[integratedSkills]]
@@ -15,11 +15,11 @@ paths = [ "/" ]
 localPort = 21864
 
 [services.development]
-run = "pnpm --filter @workspace/mina-portfolio run dev"
+run = "pnpm --filter @workspace/harpreet-singh run dev"
 
 [services.production]
-build = [ "pnpm", "--filter", "@workspace/mina-portfolio", "run", "build" ]
-publicDir = "artifacts/mina-portfolio/dist/public"
+build = [ "pnpm", "--filter", "@workspace/harpreet-singh", "run", "build" ]
+publicDir = "artifacts/harpreet-singh/dist/public"
 serve = "static"
 
 [[services.production.rewrites]]

@@ -94,7 +94,7 @@ export function Hero() {
         <img 
           ref={imgRef}
           src="/src/assets/hero.png" 
-          alt="Mina Massoud" 
+          alt="Harpreet Singh" 
           className="w-full h-full object-cover grayscale contrast-125 brightness-75"
         />
       </div>
