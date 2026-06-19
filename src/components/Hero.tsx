@@ -1,4 +1,5 @@
 import { splitTextToSpans } from "@/lib/utils";
+import heroImg from "@/assets/hero.png";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
@@ -93,7 +94,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-primary/20 mix-blend-multiply z-10" />
         <img 
           ref={imgRef}
-          src="/src/assets/hero.png" 
+          src={heroImg}
           alt="Harpreet Singh" 
           className="w-full h-full object-cover grayscale contrast-125 brightness-75"
         />

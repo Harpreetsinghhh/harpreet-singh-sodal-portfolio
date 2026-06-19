@@ -1,6 +1,8 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { splitTextToSpans } from "@/lib/utils";
+import heroImg from "@/assets/hero.png";
+import aboutHover from "@/assets/about-hover.png";
 
 export function About() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -68,12 +70,12 @@ export function About() {
         <div className="w-full md:w-1/2 relative group" data-cursor="REVEAL">
           <div className="aspect-[3/4] w-full max-w-md mx-auto relative overflow-hidden">
             <img 
-              src="/src/assets/hero.png" 
+              src={heroImg} 
               alt="Mina Portrait" 
               className="absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ease-in-out group-hover:opacity-0"
             />
             <img 
-              src="/src/assets/about-hover.png" 
+              src={aboutHover} 
               alt="Digital Mask" 
               className="absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700 ease-in-out group-hover:opacity-100"
             />
