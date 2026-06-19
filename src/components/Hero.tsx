@@ -102,9 +102,10 @@ export function Hero() {
 
       <div className="absolute bottom-0 left-0 w-full overflow-hidden py-4 border-t border-border bg-background z-20">
         <div className="marquee-container font-mono text-xs tracking-widest uppercase text-muted-foreground whitespace-nowrap">
-          <span>FRONTEND DEVELOPER <span className="text-primary mx-4">·</span> AWWWARDS <span className="text-primary mx-4">·</span> MOTION <span className="text-primary mx-4">·</span> GSAP <span className="text-primary mx-4">·</span> CREATIVE DEVELOPER <span className="text-primary mx-4">·</span> </span>
-          <span>FRONTEND DEVELOPER <span className="text-primary mx-4">·</span> AWWWARDS <span className="text-primary mx-4">·</span> MOTION <span className="text-primary mx-4">·</span> GSAP <span className="text-primary mx-4">·</span> CREATIVE DEVELOPER <span className="text-primary mx-4">·</span> </span>
-          <span>FRONTEND DEVELOPER <span className="text-primary mx-4">·</span> AWWWARDS <span className="text-primary mx-4">·</span> MOTION <span className="text-primary mx-4">·</span> GSAP <span className="text-primary mx-4">·</span> CREATIVE DEVELOPER <span className="text-primary mx-4">·</span> </span>
+          <span>FRONTEND DEVELOPER <span className="text-primary mx-4">·</span>BACKEND DEVELOPER<span className="text-primary mx-4">·</span> MOTION <span className="text-primary mx-4">·</span> DESIGN <span className="text-primary mx-4">·</span> CREATIVE DEVELOPER <span className="text-primary mx-4">·</span> </span>
+          <span>FRONTEND DEVELOPER <span className="text-primary mx-4">·</span>BACKEND DEVELOPER<span className="text-primary mx-4">·</span> MOTION <span className="text-primary mx-4">·</span> DESIGN <span className="text-primary mx-4">·</span> CREATIVE DEVELOPER <span className="text-primary mx-4">·</span> </span>
+          <span>FRONTEND DEVELOPER <span className="text-primary mx-4">·</span>BACKEND DEVELOPER<span className="text-primary mx-4">·</span> MOTION <span className="text-primary mx-4">·</span> DESIGN <span className="text-primary mx-4">·</span> CREATIVE DEVELOPER <span className="text-primary mx-4">·</span> </span>
+          <span>FRONTEND DEVELOPER <span className="text-primary mx-4">·</span>BACKEND DEVELOPER<span className="text-primary mx-4">·</span> MOTION <span className="text-primary mx-4">·</span> DESIGN <span className="text-primary mx-4">·</span> CREATIVE DEVELOPER <span className="text-primary mx-4">·</span> </span>
         </div>
       </div>
     </section>
