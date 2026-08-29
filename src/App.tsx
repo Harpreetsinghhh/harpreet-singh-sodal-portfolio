@@ -17,6 +17,7 @@ import { Journey } from "@/components/Journey";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import BackgroundAudio from "@/components/AudioComponents";
+import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -72,6 +73,7 @@ function App() {
         </div>
         
         <Toaster />
+        <WhatsAppButton />
       </TooltipProvider>
     </QueryClientProvider>
   );
