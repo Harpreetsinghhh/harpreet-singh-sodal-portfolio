@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const WhatsAppButton = () => {
   const phoneNumber = "919877095889"; // India country code + your number
@@ -18,7 +18,7 @@ export const WhatsAppButton = () => {
         
         {/* Main button */}
         <div className="relative flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform group-hover:scale-110">
-          <MessageCircle size={28} className="text-white" />
+          <FaWhatsapp size={28} className="text-white" />
         </div>
         
         {/* Tooltip on hover */}
