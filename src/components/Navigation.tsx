@@ -7,7 +7,7 @@ export function Navigation() {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 mix-blend-difference px-6 md:px-12 py-8">
+    <nav className="fixed top-0 left-0 w-full z-50 md:mix-blend-difference px-6 md:px-12 py-8">
       <div className="max-w-7xl mx-auto flex justify-between items-center border-b border-white/20 pb-4">
         <a href="#" className="font-serif text-2xl font-bold tracking-tighter text-foreground hover:text-primary transition-colors" data-cursor="HOME">
           Harpreet
@@ -35,7 +35,7 @@ export function Navigation() {
 
       <div
         id="mobile-navigation"
-        className={`absolute inset-x-0 top-full bg-background/95 backdrop-blur-xl border-b border-white/10 md:hidden transition-all duration-300 ${menuOpen ? "block" : "hidden"}`}
+        className={`absolute inset-x-0 top-full bg-background border-b border-white/10 md:hidden transition-all duration-300 ${menuOpen ? "block" : "hidden"}`}
       >
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col gap-4 font-mono text-sm uppercase tracking-widest">
           <a href="#about" onClick={closeMenu} className="nav-link text-foreground">About</a>
