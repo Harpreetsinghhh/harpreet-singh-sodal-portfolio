@@ -112,8 +112,7 @@ export function Projects() {
           {PROJECTS.map((project) => (
             <div 
               key={project.id} 
-              className="project-card group relative overflow-hidden bg-secondary/20 border border-border flex flex-col md:flex-row items-center justify-between p-8 md:p-12 hover:bg-secondary/40 transition-colors duration-500"
-              data-cursor="EXPLORE"
+              className="project-card relative overflow-hidden bg-secondary/20 border border-border flex flex-col md:flex-row items-center justify-between p-8 md:p-12"
             >
               <div className="z-10 relative flex flex-col gap-4 w-full md:w-auto">
                 <div className="font-mono text-primary tracking-widest text-sm flex items-center gap-4">
@@ -121,7 +120,7 @@ export function Projects() {
                   <div className="w-12 h-px bg-primary" />
                   <span>{project.kanji}</span>
                 </div>
-                <h3 className="font-serif text-4xl md:text-6xl text-foreground uppercase group-hover:text-primary transition-colors duration-300">
+                <h3 className="font-serif text-4xl md:text-6xl text-foreground uppercase">
                   {project.title}
                 </h3>
                 <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-widest text-muted-foreground mt-4">
@@ -130,14 +129,13 @@ export function Projects() {
                   <span>{project.year}</span>
                 </div>
               </div>
-              
-              <div className="absolute inset-0 md:relative md:w-[400px] md:h-[250px] w-full h-full md:inset-auto z-0 opacity-0 group-hover:opacity-10 md:group-hover:opacity-100 transition-all duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] scale-110 group-hover:scale-100">
+
+              <div className="relative w-full h-[220px] md:w-[400px] md:h-[250px] overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full object-cover grayscale"
                 />
-                <div className="absolute inset-0 bg-primary/20 mix-blend-multiply md:hidden" />
               </div>
             </div>
           ))}
