@@ -1,32 +1,50 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import proj1 from "@/assets/project-1.png";
-import proj2 from "@/assets/project-2.png";
-import proj3 from "@/assets/project-3.png";
+import proj1 from "@/assets/project-1.jpg";
+import proj2 from "@/assets/project-2.jpg";
+import proj3 from "@/assets/project-3.jpg";
+import proj4 from "@/assets/project-4.jpg";
+import proj5 from "@/assets/project-5.jpg";
 
 const PROJECTS = [
-  {
+    {
     id: "01",
-    title: "IP BLACKLIST CHECKER",
-    category: "WEB APPLICATION",
-    year: "2025",
+    title: "PETALHOST",
+    category: "WEB HOSTING & CLOUD SOLUTIONS",
+    year: "2026",
     image: proj1,
-    kanji: "検査"
+    kanji: "花"
   },
   {
     id: "02",
-    title: "NUMBERPLATESEXPRESS",
-    category: "E-COMMERCE PLATFORM",
-    year: "2025",
+    title: "MARKETING GEENIE",
+    category: "PERFORMANCE MARKETING",
+    year: "2026",
     image: proj2,
-    kanji: "販売"
+    kanji: "成長"
   },
   {
     id: "03",
+    title: "IP BLACKLIST CHECKER",
+    category: "WEB APPLICATION",
+    year: "2025",
+    image: proj3,
+    kanji: "検査"
+  },
+  {
+    id: "04",
+    title: "NUMBERPLATESEXPRESS",
+    category: "E-COMMERCE PLATFORM",
+    year: "2025",
+    image: proj4,
+    kanji: "販売"
+  },
+  {
+    id: "05",
     title: "VPS MANAGEMENT",
     category: "SERVER MANAGEMENT",
     year: "2025",
-    image: proj3,
+    image: proj5,
     kanji: "管理"
   }
 ];

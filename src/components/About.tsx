@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { splitTextToSpans } from "@/lib/utils";
-import heroImg from "@/assets/hero.png";
-import aboutHover from "@/assets/about-hover.png";
+import heroImg from "@/assets/hero.jpg";
+import aboutHover from "@/assets/about-hover.jpg";
 
 export function About() {
   const containerRef = useRef<HTMLDivElement>(null);

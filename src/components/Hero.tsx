@@ -1,5 +1,5 @@
 import { splitTextToSpans } from "@/lib/utils";
-import heroImg from "@/assets/hero.png";
+import heroImg from "@/assets/hero.jpg";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
