@@ -112,7 +112,7 @@ export function Projects() {
           {PROJECTS.map((project) => (
             <div 
               key={project.id} 
-              className="project-card relative overflow-hidden bg-secondary/20 border border-border flex flex-col md:flex-row items-center justify-between p-8 md:p-12"
+              className="project-card group relative overflow-hidden bg-secondary/20 border border-border flex flex-col md:flex-row items-center justify-between p-8 md:p-12 hover:bg-secondary/40 transition-colors duration-500"
             >
               <div className="z-10 relative flex flex-col gap-4 w-full md:w-auto">
                 <div className="font-mono text-primary tracking-widest text-sm flex items-center gap-4">
@@ -120,7 +120,7 @@ export function Projects() {
                   <div className="w-12 h-px bg-primary" />
                   <span>{project.kanji}</span>
                 </div>
-                <h3 className="font-serif text-4xl md:text-6xl text-foreground uppercase">
+                <h3 className="font-serif text-4xl md:text-6xl text-foreground uppercase group-hover:text-primary transition-colors duration-300">
                   {project.title}
                 </h3>
                 <div className="flex items-center gap-4 font-mono text-xs uppercase tracking-widest text-muted-foreground mt-4">
@@ -134,7 +134,7 @@ export function Projects() {
                 <img 
                   src={project.image} 
                   alt={project.title} 
-                  className="w-full h-full object-cover grayscale"
+                  className="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0"
                 />
               </div>
             </div>
